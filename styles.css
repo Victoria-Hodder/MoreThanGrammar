@@ -5,3 +5,15 @@
     position: absolute;
     z-index: 1;
 }
+
+.title1 {
+    color: #ff204c;
+}
+
+.title2 {
+    color: #ff5700; 
+}
+
+.title3 {
+    color: teal;
+}
