@@ -1,0 +1,7 @@
+.logo {
+    color: #ff204c;
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
