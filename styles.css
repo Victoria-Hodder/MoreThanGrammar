@@ -1,9 +1,11 @@
 .logo {
-    color: #ff204c;
-    background-color: white;
     padding: 5px;
-    position: absolute;
+    position: relative;
     z-index: 1;
+}
+
+body {
+    color: black;
 }
 
 .title1 {
