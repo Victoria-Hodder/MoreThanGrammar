@@ -22,10 +22,15 @@ body {
     width: 400px;
 }
 
+.footer-background {
+    background-color: teal;
+}
+
 .blacklink {
     color: black;
 }
 
 .thumbnail {
-    width: 200px;
+    width: 150px;
 }
+
