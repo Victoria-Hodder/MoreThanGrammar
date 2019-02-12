@@ -4,10 +4,23 @@
 
 body {
     color: black;
+    line-height: 1.5;
+}
+
+.teal-background {
+    background-color: rgb(186, 224, 224);
+}
+
+.pink-background {
+    background-color: #da123a;
+}
+
+h2 {
+    padding: 10px;
 }
 
 .title1 {
-    color: #ff204c;
+    color: #df4160;
 }
 
 .title2 {
