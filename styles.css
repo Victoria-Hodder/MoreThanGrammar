@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: white;
+    background-color: teal;
 }
 
 body {
@@ -13,6 +13,10 @@ body {
 
 .pink-background {
     background-color: #da123a;
+}
+
+.pink-text {
+    color: #da123a;
 }
 
 h2 {
