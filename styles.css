@@ -2,6 +2,15 @@
     background-color: teal;
 }
 
+.navbar {
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        color:#da123a;
+        font-weight: bold;
+        margin: 10px;
+}
+
 body {
     color: black;
     line-height: 1.5;
