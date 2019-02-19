@@ -2,16 +2,12 @@
     background-color: teal;
 }
 
-.navbar {
-        width: 100%;
-        position: fixed;
-        background-color: white;
-        color:#da123a;
-        font-weight: bold;
-        font-size: 20px;
-        margin: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+
+.nav-link {
+    background-color: white;
+    color:#da123a;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 body {
