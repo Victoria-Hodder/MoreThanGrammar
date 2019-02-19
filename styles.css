@@ -49,6 +49,7 @@ h2 {
 
 .blacklink {
     color: black;
+    text-decoration: underline;
 }
 
 .thumbnail {
