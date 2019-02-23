@@ -47,6 +47,14 @@ h2 {
     background-color: teal;
 }
 
+.whitelink {
+    color: white;
+}
+
+.whitetext {
+    color: white;
+}
+
 .blacklink {
     color: black;
     text-decoration: underline;
