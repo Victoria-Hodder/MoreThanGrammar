@@ -12,7 +12,9 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
  <!--Icons-->
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
- </head>
+ <!--WOW-->
+ <link rel="stylesheet" href="css/animate.css"> 
+</head>
 
 
 <body>  
@@ -39,7 +41,7 @@
         </div>
     </div>    
 
-    <main class="container">
+    <main class="container-fluid">
         <div class="row py-2 col-md-6 offset-md-3 justify-content-md-center">
             <h2 class="title3 text-center"><strong>MTG is about building your language confidence.</strong></h2>
             <p>It is the idea that you are MORE than your mistakes. You are MORE than your grades. You are MORE than the words you use and you are MORE than what other people say.</p>
@@ -47,9 +49,8 @@
             <h3 class="mt-5"><strong>Click below to book your first lesson</strong></h3>
         </div>
         <div class="col-4 offset-md-4 offset-sm-4 mt-2 mb-5 justify-content-md-center">
-                <button type="submit" class="btn btn-block btn-lg btn-info pink-background animated bounce">Let's go!</button>
+            <button type="submit" class="btn btn-block btn-lg btn-info pink-background wow bounce">Let's go!</button>
         </div>
-    </div>
 
                 <!--How on earth do I make this full span???-->
 
@@ -72,14 +73,14 @@
                 </div>
             </div>
 
-        <!--Advantages of private lessons-->
+            <!--Advantages of private lessons-->
 
             <div class="row py-5 mt-5 text-center">
                 <div class="col-md-12">
-                    <h2 class="pink-text animated flipInY">Advantages of Private Training</h2>
+                    <h2 class="pink-text wow flipInY">Advantages of Private Training</h2>
                 </div>
-
             </div>
+            
             <div class="row pb-5 mb-5 text-center">
                 <div class="col-md-3">
                     <i class="far fa-list-alt fa-7x pb-3"></i>
@@ -109,7 +110,7 @@
 
 
 
-        <!--How I teach section-->
+            <!--How I teach section-->
 
             <div class="row py-5 teal-background"> 
                 <div class="col-md-5 offset-md-1">
@@ -125,7 +126,7 @@
                 </div>
             </div>
 
-            <!--Read my blog section-->
+                <!--Read my blog section-->
 
             <div class="row py-5 mt-5">
                 <div class="col-md-5 offset-md-1">
@@ -151,7 +152,6 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
         </form>
-
 
     </main>
 
@@ -208,5 +208,8 @@ integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65q
 crossorigin="anonymous"></script>
  <!-- Main JS -->
  <script src="js/main.js"></script>
+ <!--Wow animation-->
+ <script src="js/wow.min.js"></script>
+ <script> new WOW().init(); </script>
  </body>
 </html>
