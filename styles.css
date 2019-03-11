@@ -43,6 +43,16 @@ h2 {
     width: 400px;
 }
 
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    background-color: white;
+ }
+
+.zoom:hover {
+    transform: scale(1.2);
+  }
+
 .footer-background {
     background-color: teal;
 }
